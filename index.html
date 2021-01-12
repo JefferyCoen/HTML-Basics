@@ -1,0 +1,211 @@
+<!--
+    Author: Jeff C. 
+    Date: 11/1/2020
+    Html Foundations round 2
+    ***NOTE: nothing will look pretty just trying to refreshing skills since being absent because of military obligations
+-->
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Foundations Round 2</title>
+        <meta charset="UTF-8">
+        <link href="main.css" rel="stylesheet"/> 
+        <script src="./scripts/main.js"></script>
+        
+        <!--For Boomchakalaka-->
+        <style>
+            @keyframes blink{
+			to{opacity:.0;}
+			}
+			@-webkit-keyframes blink{
+			to{opacity:.0;}
+			}
+        </style>
+    </head>
+    <body>
+        <h1>HTML & CSS Foundations Round2</h1>
+        <h2>Back to the basics</h2>
+        <h4>Paragraph Basics</h4>
+        <p>Content to be displayed on the screen will go here because this is a paragraph tag :)</p>
+        <hr />
+        <!--Input examples-->
+        <!--There are two ways to use an input. closing tags are not needed-->
+        <h4>Input Examples: </h4>
+        NAME: <input>
+        <br />
+        <br />   
+        <input placeholder="Name">
+        <br />
+        <h4>Basic HTML Button Examples:</h4>
+        <p class="note">**Note the first one will not work**</p>
+        <p>**Nothing will happend</p>
+        <button>Click Me!</button>
+        <br />
+        <p>**An alert will pop up</p>
+        <button onclick="alert('Hello!')">Click Me!</button>
+        <!--Inserting a pic from the web-->
+        <h2>Inserting a picture from the web</h2>
+        <div class="banner" style="width:100%; height:50px; background-color:#3d3d29">
+            <h1 style="font-family: '21st Century', fantasy; font-weight:3px; text-align:center; color:#FFFF ;">
+            Wolf Creations
+            </h1>
+        </div>
+        <hr />
+        <div class="pic1">
+            <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAuzYda6Z2IyB-XTc7w64dlvnEt-FfKE-jb5A8qKXQSKKgGksAvQ" />
+        </div>
+        <hr />
+        <!--Making an ordered and unordered list-->
+        <!--ordered List-->
+        <!--**NOTE: classes are within list items-->
+        <h2>Ordered and Unordered List Examples</h2>
+        <h4>Examples of Ordered Lists</h4>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+        <ol>
+            <li class="upperRoman">Item 1</li>
+            <li class="upperRoman">Item 2</li>
+            <li class="upperRoman">Item 3</li>
+        </ol>
+        <ol>
+            <li class="lowerRoman">Item 1</li>
+            <li class="lowerRoman">Item 2</li>
+            <li class="lowerRoman">Item 3</li>
+        </ol>
+
+        <!--Unordered List-->
+        <!--**NOTE: classes are within unordered lists-->
+        <h4>Examples of Unordered Lists</h4>
+        <ul>
+            <li>Thing 1</li>
+            <li>Thing 2</li>
+            <li>Thing 3</li>
+            <li>Thing 4</li>
+        </ul>
+        <!--Unordered List with Circled Bullets-->
+        <ul class="circles">
+            <li>Thing 1</li>
+            <li>Thing 2</li>
+            <li>Thing 3</li>
+            <li>Thing 4</li>
+        </ul>
+        <!--Unordered List with Squared Bullets-->
+        <ul class="squares"> 
+            <li>Thing 1</li>
+            <li>Thing 2</li>
+            <li>Thing 3</li>
+            <li>Thing 4</li>
+        </ul>
+        <!--Unordered List without bullets-->
+        <ul class="noBullets">
+            <li>Thing 1</li>
+            <li>Thing 2</li>
+            <li>Thing 3</li>
+            <li>Thing 4</li>
+        </ul>
+        <!--Ordered and Unordered Lists Mix-->
+        <h4>Ordered and Unordered Lists Working Together</h4>
+        <ol>
+            <li>Wood</li>
+                <ul>
+                    <li>Yellow Heart</li>
+                    <li>Purple Heart</li>
+                    <li>Oak</li>
+                </ul>
+            <li>Tools</li>
+                <ul>
+                    <li>Flush Saw</li>
+                    <li>Hand Planner</li>
+                    <li>Chisels</li>
+                    <li>Mallet</li>
+                </ul>
+            <li>HardWare</li>
+                <ul>
+                    <li>None</li>
+                </ul>
+        </ol>
+        <hr />
+        <!--A little extra fun-->
+        <h2>A Little Extra Fun ;)</h2>
+        <!--Script and css is linked in the head but if it wasn't the css is embedded with the html and the script will be at the bottom of html document. This example will have the script at the bottom-->
+        <!--Strong semantic tag was used but i or em can be used (both italicize)... keep in mind that em is used for the browser to label it as important-->
+        <p style="font-size: 50px; font-weight:5px">
+            <strong>
+                <span style="color:#000; animation:blink .5s infinite; -webkit-animation:blink .5s infinite, -ms-animation:blink .5s infinte">!!!</span>
+                BOOMCHAKALAKA
+            </strong>
+            <strong>
+                <span style="color:#000; animation:blink .5s infinite; -webkit-animation:blink .5s infinite, -ms-animation:blink .5s infinte">!!!</span>
+            </strong>
+        </p>
+        <hr />
+        <!--Table example-->
+        <h2>A quick table example with HTML</h2>
+        <table> 
+            <thead>
+                <th>Name</th>
+                <th>QTY</th>
+                <th>Price</th>
+                <th>Type</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Apples</td>
+                    <td>3</td>
+                    <td>1.23</td>
+                    <td>Fruit</td>
+                </tr>
+                <tr>
+                    <td>Milk</td>
+                    <td>1</td>
+                    <td>2.99</td>
+                    <td>Dairy</td>
+                </tr>
+                <tr>
+                    <td>Ground Beef</td>
+                    <td>1</td>
+                    <td>5.99</td>
+                    <td>Meat</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr/>
+        <!--Section Element and layouts-->
+        <h2>HTML Skeleton Mockup</h2>
+        <div id="bodTag">
+            <p>&ltbody&gt</p>
+            <section id="head">
+                <p>&ltheader&gt</p>
+                <section id="theNav">
+                    <p>&ltnav&gt</p>
+                </section>
+            </section>
+            <div id="mainInfo">
+                <section id="left">
+                    <p>&ltsection&gt</p>
+                    <div id="leftHead">
+                        <p>&ltheader&gt</p>
+                    </div>
+                    <div id="leftFoot">
+                        <p>&ltfooter&gt</p>
+                    </div>
+                </section>
+                <section id="right">
+                    <p>&ltsection&gt</p>
+                    <div id="rightHead">
+                        <p>&ltheader&gt</p>
+                    </div>
+                    <div id="rightParagragh">
+                        <p>&ltp&gt</p>
+                    </div>
+                </section>
+            </div>
+            <div id="foot">
+                <p>&ltfooter&gt</p>
+            </div>
+        </div>
+    </body>
+</html>

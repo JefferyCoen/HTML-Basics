@@ -1,0 +1,167 @@
+h2 {
+    text-decoration: underline; 
+}
+
+h4 {
+    text-decoration: underline;
+    text-decoration-color: darkgoldenrod; 
+    color: darkred; 
+}
+
+.upperRoman {
+    list-style-type: upper-roman;
+}
+
+.lowerRoman {
+    list-style-type: lower-roman;
+}
+
+
+
+.upperAlpha {
+    list-style-type: upper-alpha;
+}
+
+.lowerAlpha {
+    list-style-type: lower-alpha;
+}
+
+.note {
+    font-style: italic; 
+    font-size: 14px; 
+}
+
+.circles {
+    list-style-type: circle;
+}
+
+.squares {
+    list-style-type: square;
+}
+
+.noBullets {
+    list-style-type: none; 
+}
+
+#bodTag {
+    width: 100%; 
+    height: 685px; 
+    color: white; 
+    text-align: center;  
+    background-color: blue; 
+    font-weight: bolder; 
+}
+
+
+#bodTag #head p{
+    padding-top: 10px;
+}
+
+#bodTag p {
+    padding-top: 20px; 
+}
+
+#head {
+    width: 90%;
+    height: 100px; 
+    background-color: orangered; 
+    margin: auto;
+}
+
+#theNav {
+    width: 85%; 
+    height:40px; 
+    background-color:orange; 
+    margin: auto;
+    border: solid 1px black;
+}
+
+#theNav p {
+    position: relative; 
+    bottom: 20px; 
+}
+
+#mainInfo {
+    display: flex;
+    margin: auto;
+    margin-top: 10px; 
+    width: 90%;
+}
+
+#mainInfo p {
+    position: relative; 
+    bottom: 20px; 
+}
+
+#left {
+    width: 55%; 
+    height: 450px; 
+    background-color: green; 
+}
+
+#leftHead {
+    width: 90%;
+    background-color: orangered;
+    margin: auto; 
+    position: relative; 
+    bottom: 20px;  
+}
+
+#leftHead p {
+    position: relative; 
+    bottom: 10px
+}
+
+#leftFoot {
+    width: 90%; 
+    background-color: purple; 
+    margin: auto; 
+    position: relative; 
+    top: 275px; 
+}
+
+#leftFoot p {
+    position: relative; 
+    bottom: 10px;  
+}
+
+#right {
+    width: 90%; 
+    height: 450px; 
+    background-color: green;
+    margin-left: 20px; 
+}
+
+#rightHead {
+    width: 90%; 
+    background-color: orangered; 
+    margin: auto; 
+    position: relative; 
+    bottom: 30px
+}
+
+#rightHead p {
+    position: relative; 
+    bottom: 10px; 
+}
+
+#rightParagragh {
+    width: 90%;
+    height: 345px;  
+    background-color: red; 
+    margin: auto;
+    position: relative; 
+    bottom: 30px;  
+}
+
+#rightParagragh p {
+    position: relative; 
+    bottom: 10px; 
+}
+
+#foot {
+    width: 90%;
+    height: 50px; 
+    background-color: purple; 
+    margin: auto; 
+}
