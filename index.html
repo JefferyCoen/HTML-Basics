@@ -24,11 +24,7 @@
     </head>
     <body>
         <h1>HTML & CSS Foundations Round2</h1>
-        <h2>Back to the basics</h2>
-        <h4>Paragraph Basics</h4>
-        <p>Content to be displayed on the screen will go here because this is a paragraph tag :)</p>
-        <hr />
-        <!--Input examples-->
+        <!--Input Examples-->
         <!--There are two ways to use an input. closing tags are not needed-->
         <h4>Input Examples: </h4>
         NAME: <input>
@@ -36,13 +32,47 @@
         <br />   
         <input placeholder="Name">
         <br />
+        <!--Button Examples-->
+        <!--Button examples are not wired for backend-->
         <h4>Basic HTML Button Examples:</h4>
         <p class="note">**Note the first one will not work**</p>
         <p>**Nothing will happend</p>
         <button>Click Me!</button>
         <br />
+        <!--Button will display an alert-->
         <p>**An alert will pop up</p>
         <button onclick="alert('Hello!')">Click Me!</button>
+        <br />
+        <br />
+        <!--Drop Down Example-->
+        <h3>What is your favorite Pokemon?</h3>
+        <p>Select a pokemon</p>
+        <p>Drop down option:</p> 
+        <select name="pokemon">
+            <option value = "pikachu">Pikachu</option>
+            <option value = "charmander">Charmander</option>
+            <option value = "bulbasaur">Bulbasaur</option>
+        </select>
+        <!--check Box Options-->
+        <p>Check box option:</p>
+        <input type = "checkbox" id="pikachu" name="Pikachu"/>
+        <label for = "pikachu">Pikachu</label>
+        <br />
+        <input type = "checkbox" id="charmander" name="Charmander"/>
+        <label for = "charmander">Charmander</label>
+        <br />
+        <input type = "checkbox" id="bulbasaur" name="Bulbasaur"/>
+        <label for = "bulbasaur">Bulbasaur</label>
+        <!--Radial Button option-->
+        <p>Radial Option:</p>
+        <input type = "radio" id = "pikachu" name = "pokemon" value = "pikachu"/>
+        <label for = "pikachu">Pikachu</label> 
+        <br />
+        <input type = "radio" id = "charmander" name = "pokemon" value = "charmander"/>
+        <label for = "charmander">Charmander</label>
+        <br />
+        <input type = "radio" id = "bulbasaur" name = "pokemon" value = "bulbasaur"/> 
+        <label for = "bublasaur">Bulbasaur</label>
         <!--Inserting a pic from the web-->
         <h2>Inserting a picture from the web</h2>
         <div class="banner" style="width:100%; height:50px; background-color:#3d3d29">
